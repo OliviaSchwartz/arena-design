@@ -1,0 +1,13 @@
+{
+  "name": "arena-design-handoff",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Arena's complete static marketing website",
+  "scripts": {
+    "dev": "node scripts/serve.cjs",
+    "start": "node scripts/serve.cjs",
+    "build": "node scripts/build.cjs",
+    "check": "node scripts/check.cjs"
+  },
+  "engines": { "node": ">=20" }
+}
