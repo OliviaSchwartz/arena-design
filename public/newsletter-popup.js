@@ -1,4 +1,6 @@
 (()=>{
+ // Pause newsletter acquisition through the Oct 2 application deadline (Eastern time).
+ if(Date.now()<Date.parse('2026-10-03T00:00:00-04:00'))return;
  const popup=document.querySelector('.newsletter-popup');if(!popup)return;
  const read=k=>{try{return sessionStorage.getItem(k)}catch{return null}},write=k=>{try{sessionStorage.setItem(k,'1')}catch{}};
  let shown=!!read('arena-newsletter-shown'),previousFocus;

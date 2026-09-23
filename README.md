@@ -1,6 +1,6 @@
 # Arena website — developer handoff
 
-Complete editable snapshot of the current marketing site, including all 19 pages, images, logos, embedded fonts, CSS, JavaScript, and interactive map markup.
+Complete editable snapshot of the current marketing site, including all 20 pages, images, logos, embedded fonts, CSS, JavaScript, and interactive map markup.
 
 Current review site: https://arena-member-homepage.arena-3566.chatgpt.site/
 
@@ -29,6 +29,8 @@ Build copies the site to `dist/` for static hosting. Configure your host to reso
 - `public/styles.css`: base layout/styles; `brand.css`: shared brand styles, responsive navigation, card states, popup and motion; `pages.css`: interior page refinements.
 - `public/fonts-embedded.css`: bundled font data; no remote font request is needed.
 - `public/pages.js`: interior page interactions, filters, scroll reveals and form handling.
+- `public/apply.html`, `apply.css`, and `apply.js`: unlinked application campaign landing page, countdown, mobile sticky CTA, and repeatable reveals.
+- `public/member-carousel.js`: five-member looping carousel.
 - `public/mobile-navigation.js`: hamburger disclosure across all pages.
 - `public/newsletter-popup.js`: newsletter popup triggers and session frequency controls.
 - `public/page-assets/`, `partner-logos/`, `press-logos/`, and root image/SVG files: locally bundled media and logos.
@@ -45,7 +47,7 @@ Responsive branded pages; mobile menu; repeatable scroll reveals; upward-exiting
 - Membership CTAs link to `https://apply.arenatalent.com/signup`; Login links to the external `/login` app. That application is not part of this repository.
 - Newsletter forms use the supplied public Mailchimp embedded form endpoint and hidden tag ID `6504285`. These public form identifiers are not API credentials. Verify in Mailchimp that this ID corresponds to **Newsletter**, and test subscription/confirmation behavior with an authorized test address. No actual subscriber was submitted during implementation.
 - Contact and partnership forms call the existing external `arenatalent.com/api/contact` and `/api/partner` services. Their server implementations are not available in this project. Confirm CORS for the eventual domain, validation, spam protection, delivery and recipient routing to `contact@arenatalent.com` and `partnerships@arenatalent.com`. Recipient delivery has **not** been verified.
-- The application deadline (Oct 2), cohort language, price, stats, stories and event listings are static content and need editorial maintenance.
+- The application landing page deadline (Oct 2, 2026 at 11:59 p.m. ET), cohort language, price, stats, stories and event listings are static content and need editorial maintenance.
 - Newsletter popup application-flow exclusion recognizes application clicks within this site's browser session; it cannot detect application progress on another domain or device.
 - Before launch on a new domain, review legal copy, content accuracy, asset/font licensing, accessibility, browser/mobile behavior, SEO metadata, redirects, email integrations and analytics needs. This snapshot contains no analytics service configuration or CMS.
 
@@ -58,3 +60,7 @@ No passwords, API keys, tokens, `.env` files, Git history from the source host, 
 ## Search and sharing metadata
 Titles, descriptions, Open Graph and Twitter tags were copied from the matching live arenatalent.com pages on September 18, 2026 (18 exact matches). The new newsletter landing page has no existing counterpart, so its own title/description were retained with the shared Arena image. The current source OG URLs and image URLs remain on arenatalent.com; review URLs when moving domains or changing press-release routes. A local copy of the shared image is bundled as public/og-image.png.
 
+
+## September 23 campaign update
+
+See `CHANGELOG.md` for the full revision list. `/apply` is intentionally unlinked and marked noindex; its application buttons lead to the external signup flow. The countdown closes the landing-page CTAs at the deadline. The shared newsletter popup is paused through October 2 Eastern time and resumes October 3; direct signup forms remain available. Homepage campaign copy and other static pages are maintained separately.
