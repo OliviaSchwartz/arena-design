@@ -38,7 +38,7 @@ Shared navigation, footer, popup markup and CTA markup are repeated in the stati
 
 ## Built experience
 
-Responsive branded pages; mobile menu; repeatable scroll reveals; upward-exiting brand splash; automatically scrolling logo tickers; mobile-visible card descriptions with desktop hover interactions; interactive city pins; four member spotlights with looping arrows and mobile swipe; filterable editorial news; internal press releases; newsletter landing page and Mailchimp signup popup. Reduced-motion preferences are respected.
+Responsive branded pages; mobile menu; repeatable scroll reveals; upward-exiting brand splash; automatically scrolling logo tickers; mobile-visible card descriptions with desktop hover interactions; interactive city pins; five member spotlights with looping arrows and mobile swipe; filterable editorial news; internal press releases; newsletter landing page and Mailchimp signup popup. Reduced-motion preferences are respected.
 
 ## Integrations and remaining work
 
@@ -57,3 +57,4 @@ No passwords, API keys, tokens, `.env` files, Git history from the source host, 
 
 ## Search and sharing metadata
 Titles, descriptions, Open Graph and Twitter tags were copied from the matching live arenatalent.com pages on September 18, 2026 (18 exact matches). The new newsletter landing page has no existing counterpart, so its own title/description were retained with the shared Arena image. The current source OG URLs and image URLs remain on arenatalent.com; review URLs when moving domains or changing press-release routes. A local copy of the shared image is bundled as public/og-image.png.
+
