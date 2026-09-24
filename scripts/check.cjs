@@ -4,7 +4,7 @@ let checked=0;
 function local(ref,from){
  if(/^(?:[a-z][\w+.-]*:|\/\/|#)/i.test(ref)||!ref)return;
  ref=ref.split(/[?#]/)[0];if(!ref)return;
- let target=path.resolve(path.dirname(from),decodeURIComponent(ref));
+ let target=ref==='/'?path.join(root,'index.html'):ref.startsWith('/')?path.resolve(root,'.'+decodeURIComponent(ref)):path.resolve(path.dirname(from),decodeURIComponent(ref));
  if(!path.extname(target))target+='.html';
  if(!fs.existsSync(target))throw Error('Missing local asset/link: '+ref+' in '+path.relative(root,from));
 }
