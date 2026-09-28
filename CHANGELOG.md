@@ -1,5 +1,15 @@
 # Website revision notes
 
+## September 28, 2026 — Upcoming event and navigation
+
+- Added Arena Social Club: Marketers Collective in Sports, Media & Entertainment to the upcoming events section, replacing the empty-calendar message.
+- Included the supplied Luma event artwork, New York location, October 15, 2026 date, 6–8:30 p.m. ET time, short description, and registration link: https://luma.com/bxvwgah6.
+- Styled the event date/time as a compact bright pink pill with white text.
+- Added Events after Membership in all 19 regular page headers. The unlinked `/apply` landing page remains nav-free.
+- Bundled `public/event-marketers-collective.png`; updated `public/events.html` and the other regular page headers.
+
+Validation: local asset/reference and JavaScript syntax checks passed, and the static build passed. Verified exactly one Events navigation link on each regular page and no navigation on `/apply`. Event details were read from Luma; no registration was submitted. No new comprehensive browser/device regression test was performed.
+
 ## September 23, 2026 — Fall campaign homepage and application landing page
 
 - Rewrote homepage hero, problem, introduction steps, benefits, audience criteria, stats, final CTA, and search/social text metadata. Added application reassurance, quarterly pricing, guarantee/expense/referral copy, and proof below the steps.
