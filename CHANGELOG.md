@@ -1,5 +1,17 @@
 # Website revision notes
 
+## October 2, 2026 — Open applications, free trial and sector landing pages
+
+- Removed active Fall cohort, application deadline, countdown and 30-day guarantee messaging across the site. Applications stay open with no end date. Historical press releases remain historical records.
+- Updated application steps, pricing, FAQ, terms, metadata, banners and shared CTAs for a two-week trial: apply and be accepted, activate with a card, then automatic billing after 14 days unless cancelled. External application/billing behavior is not implemented in this static repository.
+- Added seven branded sector landing pages: marketing, content, film/tv, partnerships/business development, music, talent representation, and strategy/operations. Each includes tailored copy and shares proof, pricing, FAQ and application links. Pages are unlinked, noindex, and have logo-only headers.
+- Removed the extra trial disclosure above How it works and the applications-open phrase from the homepage hero eyebrow.
+- Removed acceptance/activation fine print from bottom CTAs across all pages and the 14-days-free disclosure paragraph beneath landing-page hero CTAs. Detailed terms remain elsewhere on the site.
+- Kept the newsletter popup disabled while retaining direct subscribe forms.
+
+Validation: static references and inline JavaScript syntax checks and static build passed. Earlier checks this round covered homepage, application and sector layouts at desktop and mobile widths with no horizontal overflow or JavaScript errors. No payment, application or email was submitted.
+
+
 ## September 28, 2026 — Upcoming event and navigation
 
 - Added Arena Social Club: Marketers Collective in Sports, Media & Entertainment to the upcoming events section, replacing the empty-calendar message.
