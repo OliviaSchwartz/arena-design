@@ -1,0 +1,15 @@
+.community-roster{background:#f4f0ff;padding:72px 24px;color:#19154b;font-family:Montserrat,Arial,sans-serif}
+.community-roster-inner{max-width:1120px;margin:0 auto}
+.community-roster-eyebrow{margin:0 0 12px;font-size:13px;font-weight:700;letter-spacing:.12em;text-transform:uppercase;color:#7351db}
+.community-roster h2{font-size:clamp(28px,3.3vw,44px);line-height:1.15;letter-spacing:-.035em;margin:0 0 16px;color:#19154b;font-weight:700}
+.community-roster-intro{font-size:16px;line-height:1.65;margin:0 0 32px;max-width:620px;color:#514d6f}
+.community-roster-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:18px}
+.community-roster-card{padding:28px 24px;border:1px solid #e1d8f6;border-radius:12px;background:#fff;transition:background .2s ease,transform .2s ease,box-shadow .2s ease;min-width:0}
+.community-roster-company{font-size:18px!important;font-weight:750!important;color:#6742ca!important;line-height:1.35!important;margin:0 0 18px!important}
+.community-roster-card h3{font-size:17px!important;font-weight:600!important;line-height:1.55!important;color:#19154b!important;margin:0!important;letter-spacing:0!important;overflow-wrap:anywhere}
+.community-roster-grid:has(>article:nth-child(4):last-child){grid-template-columns:repeat(2,minmax(0,1fr))}
+@media(hover:hover){.community-roster-card:hover{background:#eae2ff;transform:translateY(-3px);box-shadow:0 10px 24px #2113480d}}
+@media(max-width:700px){.community-roster{padding:48px 24px}.community-roster-grid,.community-roster-grid:has(>article:nth-child(4):last-child){grid-template-columns:1fr}.community-roster-card{padding:24px}.community-roster-intro{margin-bottom:24px}}
+@media(prefers-reduced-motion:reduce){.community-roster-card{transition:none;transform:none!important}}
+
+.community-roster-avatar{width:64px;height:72px;border-radius:10px;background:#f4f0ff;border:1px solid #e1d8f6;color:#9a85cb;display:flex;align-items:center;justify-content:center;margin-bottom:22px}.community-roster-avatar svg{width:52px;height:52px}.community-roster-card{display:flex;flex-direction:column;align-items:flex-start}.community-roster-location{font-size:13px!important;font-weight:500!important;line-height:1.5!important;color:#68617c!important;padding-top:20px!important;margin:auto 0 0!important}

@@ -1,5 +1,24 @@
 # Website revision notes
 
+## October 5, 2026 — Member proof, landing-page imagery and trial refinements
+
+- Synced the complete published review site (Sites version 89, source 20ed3bb0389161a050116ed270019f063d6e379f).
+- Added title/company/location community cards to the homepage, application page and seven sector pages, using approved active-member selections without names or the private member CSV. Homepage emphasizes senior sports roles; company logos replace avatar placeholders throughout.
+- Content features Just Women's Sports, Executive Director, Content. Music features ONE Publishing, Business Development Manager, Global A&R in Los Angeles, keeping one Warner Music Group card. Updated Excel Sports Management and ABC News to user-supplied logos.
+- Added optimized community photos and introduction/mutual-match product mockups from the supplied April asset library. Removed duplicate community-photo blocks from all seven sector pages.
+- Added Mick Corcoran's supplied testimonial, headshot and Mediahub logo; renamed the six-member looping reel “What our members are saying.”
+- Promoted 6,000 matches made and 78% match-to-meeting rate across membership marketing pages. These are user-provided figures; no reporting period or denominator has been inferred.
+- Refined homepage/application copy, hero hierarchy, early company proof, Marisol testimonial placement, comparison and application steps. Application review copy uses “our team.”
+- Added matching “14 days free · Curated introductions” hero bars, including the missing music and talent-representation bars.
+- Refined trial disclosures: curated introductions are available during trial; member pricing for in-person events requires paid membership. Removed the requested card/automatic-billing bullet from landing-page price cards; detailed terms and FAQs remain. The external signup and billing application is not included or changed.
+- Preserved pricing, application links, noindex sector pages, responsive navigation and disabled newsletter popup.
+
+Validation: local references and JavaScript syntax checks plus static build passed. During implementation, all eight landing-page logo rosters loaded without broken images or remaining person placeholders; mobile talent-representation layout had no horizontal overflow. Relevant desktop/mobile layout and six-member carousel checks were completed during the round. No external form submission, payment or subscription was tested.
+
+Remaining work: verify external application/trial/billing behavior, Mailchimp tag and confirmation behavior, email delivery/CORS, analytics, and production-domain SEO. Canva source slides remained inaccessible and were not reproduced. No private member data, source-host credentials, environment files, or publishing archives are included.
+
+
+
 ## October 2, 2026 — Open applications, free trial and sector landing pages
 
 - Removed active Fall cohort, application deadline, countdown and 30-day guarantee messaging across the site. Applications stay open with no end date. Historical press releases remain historical records.
