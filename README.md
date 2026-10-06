@@ -30,7 +30,7 @@ Build copies the site to `dist/` for static hosting. Configure your host to reso
 - `public/fonts-embedded.css`: bundled font data; no remote font request is needed.
 - `public/pages.js`: interior page interactions, filters, scroll reveals and form handling.
 - `public/apply.html`, `apply.css`, and `apply.js`: unlinked evergreen application landing page, mobile sticky CTA, and repeatable reveals.
-- `public/member-carousel.js`: five-member looping carousel.
+- `public/member-carousel.js`: six-member looping carousel.
 - `public/mobile-navigation.js`: hamburger disclosure across all pages.
 - `public/newsletter-popup.js`: newsletter popup triggers and session frequency controls.
 - `public/page-assets/`, `partner-logos/`, `press-logos/`, and root image/SVG files: locally bundled media and logos.
@@ -40,7 +40,7 @@ Shared navigation, footer, popup markup and CTA markup are repeated in the stati
 
 ## Built experience
 
-Responsive branded pages; mobile menu; repeatable scroll reveals; upward-exiting brand splash; automatically scrolling logo tickers; mobile-visible card descriptions with desktop hover interactions; interactive city pins; five member spotlights with looping arrows and mobile swipe; filterable editorial news; internal press releases; newsletter landing page and Mailchimp signup popup. Reduced-motion preferences are respected.
+Responsive branded pages; mobile menu; repeatable scroll reveals; upward-exiting brand splash; automatically scrolling logo tickers; mobile-visible card descriptions with desktop hover interactions; interactive city pins; six member spotlights with looping arrows and mobile swipe; filterable editorial news; internal press releases; newsletter landing page and Mailchimp signup popup. Reduced-motion preferences are respected.
 
 ## Integrations and remaining work
 
@@ -64,3 +64,7 @@ Titles, descriptions, Open Graph and Twitter tags were copied from the matching 
 ## October 2 evergreen membership update
 
 See CHANGELOG.md for this round. The seven unlinked sector pages are /marketing, /content, /film-tv, /partnerships, /music, /talent-representation and /strategy-ops. They share apply.css, apply.js and sectors.css, and are marked noindex, as is /apply. Deadline/countdown behavior and the 30-day guarantee were removed. Newsletter popup remains paused; embedded signup forms remain available.
+
+## October 5 handoff
+
+The current snapshot matches review-site version 89. See CHANGELOG.md for the complete revision record. New shared assets include `community-roster.css`, `landing-visuals.css`, `editorial-refinements.css`, company logos, optimized landing photos, and Mick Corcoran’s testimonial assets. All 27 pages remain editable static HTML; `public/` is the source of truth. Only images selected for the website are bundled, not the entire original photo ZIP or private member CSV.
