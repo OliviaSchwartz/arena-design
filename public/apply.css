@@ -4,3 +4,8 @@
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{animation:none!important;transition:none!important}.reveal.ready{opacity:1;transform:none}}
 
 .proof .section-label{text-align:center}
+
+/* Trial prominence on the application and priority sector pages. */
+.trial-badge{display:inline-flex;align-items:center;background:var(--lime);color:var(--navy);border-radius:6px;padding:10px 16px;font-size:clamp(16px,2vw,20px);line-height:1.4;font-weight:700;margin:8px 0 4px;max-width:100%}
+.price-card .trial-scope{max-width:380px;font-size:16px;line-height:1.6;margin:20px 0 0}
+@media(max-width:600px){.trial-badge{padding:10px 12px;font-size:16px}}
