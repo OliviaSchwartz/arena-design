@@ -1,5 +1,15 @@
 # Website revision notes
 
+## October 7, 2026 — Homepage event promotion
+
+- Added the October 15 Marketers Collective event feature near the top of the homepage, with existing event artwork, New York location, 6–8:30 PM ET time and Luma registration link.
+- Added a matching arrival popup, shown after 1.2 seconds once per browser-tab session, with close button, Escape/backdrop dismissal, native dialog focus handling and responsive mobile layout.
+- Both promotions stop appearing after October 15 at 8:30 PM ET. Existing event listing is unchanged.
+- Added public/event-promo.css and public/event-promo.js; updated public/index.html. Matches published review-site version 90.
+
+Validation: desktop/mobile popup display, dismissal, session frequency, horizontal overflow and post-event expiry checks passed. Local reference/JavaScript checks and static build passed. No event registration was submitted.
+
+
 ## October 5, 2026 — Member proof, landing-page imagery and trial refinements
 
 - Synced the complete published review site (Sites version 89, source 20ed3bb0389161a050116ed270019f063d6e379f).
