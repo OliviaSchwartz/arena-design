@@ -1,5 +1,22 @@
 # Website revision notes
 
+## October 20, 2026 — Arena Academy launch and membership updates
+
+- Synced the complete live review website, source commit 3656dd428548bdd178f522467c520045d4837dd0, including all selected images, logos, fonts, HTML, CSS and JavaScript.
+- Added Arena Academy as a second tier alongside the renamed Arena Pro core membership. Added Academy-focused announcement banners, homepage tier cards and supplied logos. Company-level branding remains Arena.
+- Added the Academy landing page with stadium hero, $49 USD pricing, eligibility criteria, application steps, program benefits, community photography, company-logo ticker, FAQ and application CTAs.
+- Rebuilt the six-week November 11–December 18 schedule as accessible expandable cards with Monday peer introductions, Wednesday masterclasses and an independent-activity panel. Matched page typography and mobile layouts.
+- Applied all latest Academy copy revisions: one assigned mentor statistic, revised career-stage and geographic requirements including study abroad, updated pricing benefit text, removal of CAD conversion notices, and all application links set to https://apply.arenatalent.com/academy-application.
+- Added Academy FAQs and separated Arena Pro membership references from company references on the FAQ page.
+- Updated homepage spacing, Academy eligibility callout and bottom CTA sizing.
+- Moved Arena Social Club to past events using a temporary community photo, removed Arena Experiences, and placed Career Design Workshops text left of its logo.
+
+Validation: local references and JavaScript syntax checks, static build, and exact public-file comparison against the published source. Desktop/mobile checks during implementation covered schedule expansion, typography, image loading and horizontal overflow.
+
+Developer notes: the external application, admissions, payments, email delivery and Mailchimp services are not implemented by this static website. Confirm those external flows independently. The past Social Club event image is a placeholder. Academy dates and seat availability are static content. General FAQ Academy eligibility copy predates the latest detailed /academy criteria; reconcile before production launch. No private member CSV, environment files, credentials or publishing archives are included.
+
+
+
 ## October 7, 2026 — Homepage event promotion
 
 - Added the October 15 Marketers Collective event feature near the top of the homepage, with existing event artwork, New York location, 6–8:30 PM ET time and Luma registration link.
