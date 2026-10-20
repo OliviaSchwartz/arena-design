@@ -68,3 +68,7 @@ See CHANGELOG.md for this round. The seven unlinked sector pages are /marketing,
 ## October 5 handoff
 
 The current snapshot matches review-site version 89. See CHANGELOG.md for the complete revision record. New shared assets include `community-roster.css`, `landing-visuals.css`, `editorial-refinements.css`, company logos, optimized landing photos, and Mick Corcoran’s testimonial assets. All 27 pages remain editable static HTML; `public/` is the source of truth. Only images selected for the website are bundled, not the entire original photo ZIP or private member CSV.
+
+## October 20, 2026 handoff
+
+The latest snapshot includes Arena Pro and Arena Academy. Edit `public/academy.html` for Academy content, `public/academy.css` and `public/academy.js` for shared Academy styling and effects. Its schedule and recent scoped style overrides are in the HTML. Run `npm run dev`, `npm run check`, and `npm run build` with Node.js 20+. See CHANGELOG.md for the complete update summary and remaining integration checks.
