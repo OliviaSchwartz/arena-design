@@ -11,7 +11,7 @@ http.createServer((req,res)=>{
   if (!file.startsWith(root + path.sep)) { res.writeHead(403); return res.end('Forbidden'); }
   if (!path.extname(file)) file += '.html';
   fs.readFile(file,(error,data)=>{
-    if(error){res.writeHead(404);return res.end('Not found');}
+    if(error){res.writeHead(404,{'Content-Type':'text/html; charset=utf-8'});return res.end(fs.readFileSync(path.join(root,'404.html')));}
     res.writeHead(200,{'Content-Type':types[path.extname(file)]||'application/octet-stream'});
     res.end(data);
   });
