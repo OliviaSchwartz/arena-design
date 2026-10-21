@@ -1,5 +1,16 @@
 # Website revision notes
 
+## October 20, 2026 — Legal policies, 404 page and mentor FAQ
+
+- Added a branded 404 page with home and contact links, root-relative asset resolution for nested inactive URLs, and noindex metadata. Verified the hosted site returns HTTP 404 with the custom page for missing and nested missing routes.
+- Replaced Terms of Use and Privacy Policy copy with the supplied updated PDFs, omitting review-draft headers/footers. Both display Last updated: October 20, 2026. Full extracted policy text was verified against the rendered HTML, with accessible headings and a linked privacy table of contents.
+- Updated Academy mentor FAQs on /academy and /faq to specify one small-group session with an assigned mentor and no included individual one-to-one session.
+- Snapshot source: b91573849732f91868accdcf8f62130265ae04ec.
+
+Validation: local references and JavaScript syntax, static build, mobile layout checks, and complete policy text comparison. Hosting on another platform must configure public/404.html as its missing-route page; local preview now does so. No external application or payment flow was changed.
+
+
+
 ## October 20, 2026 — Arena Academy launch and membership updates
 
 - Synced the complete live review website, source commit 3656dd428548bdd178f522467c520045d4837dd0, including all selected images, logos, fonts, HTML, CSS and JavaScript.
