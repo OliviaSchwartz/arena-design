@@ -1,5 +1,16 @@
 # Website revision notes
 
+## November 3, 2026 — Academy enrollment urgency
+
+- Updated Academy announcement banners across 21 pages to state that the fall cohort is 80% full, with the November 6 application deadline.
+- Added the same user-provided enrollment update to the Academy hero, pricing card and bottom CTA.
+- Preserved the application destination and all existing program details. Enrollment percentage and deadline are static copy and should be updated as availability changes.
+- Published source snapshot: c7af217fc38b6426b96af50e3058aec6b8c550d6.
+
+Validation: local reference and JavaScript checks and static build passed.
+
+
+
 ## October 20, 2026 — Legal policies, 404 page and mentor FAQ
 
 - Added a branded 404 page with home and contact links, root-relative asset resolution for nested inactive URLs, and noindex metadata. Verified the hosted site returns HTTP 404 with the custom page for missing and nested missing routes.
