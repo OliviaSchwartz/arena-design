@@ -1,5 +1,22 @@
 # Website revision notes
 
+## November 6, 2026 — Homepage refresh, Academy waitlist and Dinner Club
+
+- Synced the complete published site, including all selected artwork and assets, from source 1ae977cc1804ce792eff17afbdc922d6d854b7ab.
+- Closed Academy applications, removed sitewide enrollment banners and fall urgency, and replaced Academy application CTAs with the supplied January winter-cohort waitlist. Updated related homepage and FAQ copy.
+- Added prominent homepage metrics: 30,000+ introductions, 7,000+ meetings, 87% match-to-meeting rate, 60% membership application acceptance and 4.6/5 match rating. Removed the four hero logos and the outdated stats line beneath How Arena Pro works.
+- Replaced all three How Arena Pro works visuals: application phone photo, three introduction cards with fictional headshots on a laptop, and supplied mutual-match graphic.
+- Renamed benefits to “What your membership includes”; updated slides 1, 4 and 5 with supplied images. Replaced career workshops in this section with monthly member dinners and approved copy.
+- Moved Marisol into the first three testimonials, retaining all six members.
+- Added Chicago (Nov 17), New York and Los Angeles (Nov 19) Dinner Club listings and supplied artwork to Upcoming Events. Public listings include approved dates, local times and cities only; no restaurant names or public RSVP links. Members register within Arena.
+- Replaced the October 15 Social Club placeholder with the supplied panel photograph.
+- Dinner benefit stock photo: Pavel Danilyuk / Pexels, https://www.pexels.com/photo/elegant-people-eating-dinner-8775160/ . It is illustrative, not a photograph of an Arena dinner.
+
+Validation: local references and JavaScript syntax checks, handoff checks and static build. External registration, waitlist submission and payment flows were not exercised.
+Developer notes: event listings and metrics are static. January cohort dates remain unannounced. Only selected website assets are included; private trackers, member lists, credentials, environment files and deployment archives are excluded.
+
+
+
 ## November 3, 2026 — Academy enrollment urgency
 
 - Updated Academy announcement banners across 21 pages to state that the fall cohort is 80% full, with the November 6 application deadline.
