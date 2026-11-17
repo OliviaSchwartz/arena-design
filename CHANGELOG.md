@@ -1,5 +1,14 @@
 # Website revision notes
 
+## November 17, 2026 — Newsletter editions and events
+
+- Replaced Recent editions with the six supplied Mailchimp links, in the requested order, using their edition titles and short summaries.
+- Removed the Chicago Dinner Club listing from Upcoming Events; retained New York and Los Angeles.
+- Published source snapshot: e8fd069e8a6ad9afe6edf57db1189327d87e09fe.
+
+Validation: local references and JavaScript syntax checks and static build passed.
+
+
 ## November 6, 2026 — Homepage refresh, Academy waitlist and Dinner Club
 
 - Synced the complete published site, including all selected artwork and assets, from source 1ae977cc1804ce792eff17afbdc922d6d854b7ab.
